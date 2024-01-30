@@ -10,7 +10,7 @@
 <body>
     <nav class="navbar">
         <div class="navbar__container">
-            <a href="/" id="navbar__logo">NEXT</a>
+            <a href="/" id="navbar__logo">EcoQuest</a>
             <div class="navbar__toggle" id="mobile-menu">
                 <span class="bar"></span>
                 <span class="bar"></span>
@@ -21,10 +21,10 @@
                     <a href="/" class="navbar__links">Home</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="/" class="navbar__links">Game</a>
+                    <a href="about.html" class="navbar__links">About</a>
                 </li>
                 <li class="navbar__item">
-                    <a href="/" class="navbar__links">About</a>
+                    <a href="/" class="navbar__links">Game</a>
                 </li>
                 <li class="navbar__item">
                     <a href="/" class="navbar__links">Maps</a>
@@ -37,19 +37,69 @@
     </nav>
 
          <!-- Hero Section -->
-        <div class="main">
+        <section class="main">
             <div class="main__container">
             <div class="main__content">
-                <h1>NEXT GENERATION</h1>
-                <h2>TECHNOLOGY</h2>
-                <p>See what makes up different.</p>
-                <button class="main__btn"><a href="#">Get Started</a></button>
+                <h1 >Welcome to EcoQuest</h1>
+                <br />
+                <h3 >Your Guide to Sustainable Waste Management</h3>
+                <br />
+                <button id="main__btn" onclick="myFunction1()" ><a href="#info-sect">Information Page</a></button>
+                <button id="main__btn2" onclick="myFunction2()"><a href="about.html">Web-App Tech</a></button>
             </div>
             <div class="main__img--container">
-                <img id="main__img" src="images/pic1.svg" />
-            </div>
-            </div>
-        </div>
+                <img id="main__img" src="images/image-main.png" />
+            </section>
+
+
+
+
+
+            <main id="info-sect">
+                <div id="row1">
+                    <p class="info__paragraph"> At EcoQuest, our mission is to make waste management informative, engaging, and accessible to everyone. We offer a variety of resources and tools to help users learn about sorting their personal trash, making sustainable choices, and understanding the impact of their actions on the environment. Specifically, this can mean telling the difference between garbage, recycling, compost, and hazardous waste (and where to sort hazardous waste). 
+                        <br></br>
+                        Our website is designed with young adults and teenagers in mind, featuring an aesthetic and colorful interface that makes waste management fun and interactive. I believe that the youth and younger generations are the future of our planet which is why we should integrate these skills earlier on by targeting this group. Additionally, the application will be targeted toward an American audience, since I am from the United States myself and I can access the maps for those within the states along with using only English within the website. 
+                        </p>
+                </div>
+                <
+
+                <div id="row2">
+                    <section id="fornow">
+                        <br />
+                    <h2>Resources:</h2>
+                    <br></br>
+                    <p class="info__paragraph"> Waste Management Guides: Check out reputable sources like Waste Management, California.com, and San Jose Environmental Services for comprehensive guides on waste sorting and recycling practices.</p>
+                    <ul>
+                        <li><a href="https://www.wm.com/us/en/recycle-right">Waste Management - Recycle Right</a></li>
+                        <li><a href="https://www.california.com/how-to-sort-trash-california/">California.com - How to Sort Trash in California</a></li>
+                        <li><a href="https://www.sanjoseca.gov/your-government/departments-offices/environmental-services/recycling-garbage/residents/how-to-recycle-right/recycling-garbage-processing">San Jose Environmental Services - Recycling & Garbage</a></li>
+                        
+                    </ul>
+                    <br />
+                    <p class="info__paragraph"> Climate Change and Waste: Explore articles and studies from sources like the University of Colorado and King County to understand the link between waste management and climate change. </p>
+                      <ul>
+                    <li><a href="https://www.colorado.edu/ecenter/2023/12/15/impact-recycling-climate-change">University of Colorado - Impact of Recycling on Climate Change</a></li>
+                        <li><a href="https://kingcounty.gov/en/legacy/depts/dnrp/solid-waste/programs/climate/climate-change-solid-waste.aspx">King County - Climate Change and Solid Waste</a></li>
+                    
+                        
+                    </ul>
+                    <br />
+                    <p class="info__paragraph"> Sustainable Living Tips: Discover practical advice on shopping and living sustainably from trusted sources like The New York Times and Vogue.
+                    </p>
+                    <ul>
+                        <li><a href="https://www.nytimes.com/wirecutter/blog/how-to-shop-more-sustainably-tips/">The New York Times - How to Shop More Sustainably</a></li>
+                        <li><a href="https://www.vogue.co.uk/miss-vogue/article/how-to-shop-sustainably-on-a-budget">Vogue - How to Shop Sustainably on a Budget</a></li>
+                    
+                        
+                    </ul>
+                </section>
+                </div>
+            </main>
+                
+            
+        
+        </section>
         
     
     <script src="app.js"></script>
