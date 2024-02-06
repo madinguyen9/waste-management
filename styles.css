@@ -227,7 +227,7 @@
     max-height: 100%;
   }
 
-  .main__content h1{
+  h1{
     font-size: 4rem;
     background-color: #ff8177;
     background-image: linear-gradient(to top, #ff0844 0%, #ffb199 100%);
@@ -237,7 +237,7 @@
     -moz-text-fill-color: transparent;
   }
 
-  .main__content h3{
+  h3{
     font-size: 2rem;
     background-color: #ff8177;
     background-image: linear-gradient(to top, blue 0%, pink 100%);
@@ -358,4 +358,30 @@
 
 a {
   color: lightcoral;
+}
+
+.container{
+  height: 100vh;
+  background: lightpink;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#popup{
+  
+  width: 400px;
+  height: 400px;
+  background: white;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  padding: 0 30px;
+  color: #333;
+}
+
+.close-popup{
+  visibility: hidden;
 }
